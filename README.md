@@ -18,10 +18,10 @@ Usage
 
 Step 0: inc/config.php.example
 
- * Rename inc/config.php.example to inc/config.php
- * Using the "create table syntax" in config.php, create the database and MySQL tables
- * Define database connection information and StackExchange site and table names
- * Uncomment and enter apikey to raise daily limits
+ 1. Rename inc/config.php.example to inc/config.php
+ 2. Using the "create table syntax" in config.php, create the database and MySQL tables
+ 3. Define database connection information and StackExchange site and table names
+ 4. Uncomment and enter apikey to raise daily limits
 
 Step 1: import.php
 
