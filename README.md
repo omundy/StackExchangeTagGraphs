@@ -25,22 +25,22 @@ Step 0: inc/config.php.example
 
 Step 1: import.php
 
- * Run import.php which
- ** Exports question data from the Stack Exchange API http://api.stackexchange.com 
- ** Finds tag relationships in question data
- ** Saves this data in MySQL
+ 1. Run import.php which
+ * Exports question data from the Stack Exchange API http://api.stackexchange.com 
+ * Finds tag relationships in question data
+ * Saves this data in MySQL
 
 Step 2: export.php
 
- * Run export.php which
- ** Selects data from database
- ** Creates and formats Python code to be copied/pasted into NodeBox
+1. Run export.php which
+2. Selects data from database
+3. Creates and formats Python code to be copied/pasted into NodeBox
 
 Step 3: Select colors
 
- * Use _____ to export colors
- * Use PaletteVisualizer http://owenmundy.com/work/PaletteVisualizer/ to edit colors you wish to use
- * Alter palette dict to contain colors to suite the site you are working with
+ 1. Use _____ to export colors
+ 2. Use PaletteVisualizer http://owenmundy.com/work/PaletteVisualizer/ to edit colors you wish to use
+ 3. Alter palette dict to contain colors to suite the site you are working with
 
 Step 4: nodebox.py
 
