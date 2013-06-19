@@ -23,18 +23,16 @@ Step 0: inc/config.php.example
  3. Define database connection information and StackExchange site and table names
  4. Uncomment and enter apikey to raise daily limits
 
-Step 1: import.php
+Step 1: Run import.php which...
 
- 1. Run import.php which
  * Exports question data from the Stack Exchange API http://api.stackexchange.com 
  * Finds tag relationships in question data
  * Saves this data in MySQL
 
-Step 2: export.php
+Step 2: Run export.php which...
 
-1. Run export.php which
-2. Selects data from database
-3. Creates and formats Python code to be copied/pasted into NodeBox
+ * Selects data from database
+ * Creates and formats Python code to be copied/pasted into NodeBox
 
 Step 3: Select colors
 
@@ -44,9 +42,9 @@ Step 3: Select colors
 
 Step 4: nodebox.py
 
- * Copy/paste Python code from export.php into nodebox.py and open in NodeBox 1.9.7x
- * Run the code
- * Export a PDF or PNG file
+ 1. Copy/paste Python code from export.php into nodebox.py and open in NodeBox 1.9.7x
+ 2. Run the code
+ 3. Export a PDF or PNG file
 
 
 
@@ -60,4 +58,4 @@ StackExchange API Documentation http://api.stackexchange.com/docs
 Notes
 -------
 
-Each data set/graph may take a lot of tweaking and many different renders to generat satisfactory results
+ * Each data set/graph may take a lot of tweaking and many different renders to generat satisfactory results
